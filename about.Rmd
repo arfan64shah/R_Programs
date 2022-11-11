@@ -1,0 +1,23 @@
+# Analysis of cars data
+## by Arfan Shah
+
+**Part 1**
+```{r}
+data(cars)
+str(cars)
+summary(cars)
+plot(cars)
+```
+
+**Part 2**
+```{r}
+hist(cars$speed)
+boxplot(cars$dist)
+```
+
+**Part 3**\
+The average speed of cars is `r mean(cars$speed)`.\
+The median speed of cars is `r median(cars$speed)`.\
+The mode of cars' speed is `r mode(cars$speed)`.\
+
+# THE END
