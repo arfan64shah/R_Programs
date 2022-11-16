@@ -1,0 +1,16 @@
+---
+title: "Statistics Project"
+author: "Arfan Shah"
+date: "2022-11-16"
+output: html_document
+---
+Now lets import diabetes data locally and read it. 
+```{r}
+dataset = read.csv('diabetes.csv')
+print(head(dataset))
+```
+We will also make a histogram of BMI.
+```{r}
+hist(dataset$BMI)
+```
+
