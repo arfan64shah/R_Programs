@@ -1,0 +1,17 @@
+---
+title: "Homework"
+author: "Azmat Hussian"
+date: "2022-11-21"
+output:
+  pdf_document: default
+  html_document: default
+---
+1. Write your names using all the six headers. Make first three italic and remaining should be bold.
+2. Print your name using inline code method.
+3. Use the car dataset in R and do the following activities:
+    + Find mean, median, and mode of cars' speed.
+    + Represent cars' speed using histogram.
+    + Find summary of cars dataset.
+    + Plot boxplot of cars' distance.
+4. Import an image and make it a link. It should be clickable.
+5. 

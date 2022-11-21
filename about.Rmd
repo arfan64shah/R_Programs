@@ -8,7 +8,7 @@ output:
 ## by Arfan Shah
 
 **Part 1**
-```{r, echo=FALSE}
+```{r}
 data(cars)
 str(cars)
 summary(cars)
